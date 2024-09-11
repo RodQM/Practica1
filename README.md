@@ -22,7 +22,7 @@ import seaborn as sns
 print(df.columns)
 
 
-X = df[['S1', 'S2', 'P1', 'P2']]
+X = df[['S1', 'S2', 'P1', 'P2']] #usados encabezados en lugar de Septa length, Septal With, Petal Lenth, Petal Width
 
 
 kmeans = KMeans(n_clusters=3)
